@@ -11,7 +11,7 @@ from databases.core import DatabaseURL
 from tests.test_databases import DATABASE_URLS, async_adapter
 
 from databases.backends.aiopg import AiopgBackend 
-from databases.backends.postgres import PostgresBackend
+
 
 
 
