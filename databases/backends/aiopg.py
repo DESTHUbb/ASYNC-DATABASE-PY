@@ -16,6 +16,7 @@ from sqlalchemy.sql.ddl import DDLElement
 import aiopg
 from aiopg.sa.engine import APGCopmpiler_psycopg2
 from sqlalchemy.dialects.postgresql.psycopg2 import PGDialect_psycopg2
+from sqlalchemy.engine.cursor import CursorResultMetaData
 
 
 
