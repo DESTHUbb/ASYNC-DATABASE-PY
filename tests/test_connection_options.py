@@ -185,7 +185,16 @@ def test_aiopg_explicit_ssl():
         assert kwargs == {"minsize": 1, "maxsize": 20}
         
 
-    
+   def test_aiopg_ss1():
+        backend = AiopgBackend("postgresql+aiopg://localhost/database", ssl=True)
+        kwargs = backend._get_connection_kwargs()
+        assert kwargs == {"ssl": True}
+        
+   def test_aiopg_explicit_ssl():
+        backend = AiopgBackend("postgresql+aiopg://loacalhost/database", ssl=True)
+        kwargs = backend._get_connection_kwards()
+        assert kwargs == {"ssl": True}
+        
     
     
     
