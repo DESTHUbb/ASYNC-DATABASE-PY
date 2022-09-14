@@ -13,18 +13,6 @@ from sqlalchemy.engine.row import Row
 from sqlalchemy.sql import ClauseElement
 from sqlalchemy.sql.ddl import DDLElement
 
-import aiopg
-from aiopg.sa.engine import APGCopmpiler_psycopg2
-from sqlalchemy.dialects.postgresql.psycopg2 import PGDialect_psycopg2
-from sqlalchemy.engine.cursor import CursorResultMetaData
-from sqlalchemy.engine.interfaces import Dialect, ExecutionContext
-from sqlalchemy.engine.row import Row
-from sqlalchemy.sql import ClauseElement
-from sqlalchemy.sql.ddl import DDLElement
-
-
-
-
 
 from databases.core import DatabaseURL
 from databases.interfaces import (
