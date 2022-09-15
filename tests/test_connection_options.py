@@ -196,11 +196,7 @@ def test_aiopg_explicit_ssl():
 
 
 
-@pytest.mark.skipif(sys.version_info >= (3, 10), reason="requires python3.9 or lower")
-def test_mysql_pool_recycle():
-    backend = MySQLBackend("mysql://localhost/database?pool_recycle=20")
-    kwargs = backend._get_connection_kwargs()
-    assert kwargs == {"pool_recycle": 20}
+
 
 
 @pytest.mark.skipif(sys.version_info < (3, 7), reason="requires python3.7 or higher")
