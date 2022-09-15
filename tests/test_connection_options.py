@@ -205,12 +205,6 @@ def test_aiopg_explicit_ssl():
 
 
 
-@pytest.mark.skipif(sys.version_info < (3, 7), reason="requires python3.7 or higher")
-def test_asyncmy_pool_recycle():
-    backend = AsyncMyBackend("mysql+asyncmy://localhost/database?pool_recycle=20")
-    kwargs = backend._get_connection_kwargs()
-    assert kwargs == {"pool_recycle": 20}
-
 
 def test_aiopg_pool_size():
     backend = AiopgBackend(
