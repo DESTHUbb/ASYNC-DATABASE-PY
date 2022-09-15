@@ -205,11 +205,6 @@ def test_aiopg_explicit_ssl():
 
 
 
-
-def test_aiopg_explicit_ssl():
-    backend = AiopgBackend("postgresql+aiopg://localhost/database", ssl=True)
-    kwargs = backend._get_connection_kwargs()
-    assert kwargs == {"ssl": True}
     
     
  
