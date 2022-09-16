@@ -24,4 +24,5 @@ set -x
 
 if [ -z $GITHUB_ACTIONS" ]; then
    "$PYTHON" -m venv "$VENV"
+    PIP="$VENV/bin/pip"
     
