@@ -21,3 +21,6 @@ fi
 
 
 set -x
+
+if [ -z $GITHUB_ACTIONS" ]; then
+  
