@@ -29,4 +29,3 @@ else
     PIP="pip"
 fi 
 "$PIP" install -r "$REQUIEREMENTS"
-"$PIP" install -r -e . 
