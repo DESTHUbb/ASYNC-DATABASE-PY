@@ -28,4 +28,4 @@ if [ -z $GITHUB_ACTIONS" ]; then
 else
     PIP="pip"
 fi 
-"$PIP" install -r "$REQUIEREMENTS"
+
