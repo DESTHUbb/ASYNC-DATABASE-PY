@@ -26,3 +26,8 @@ if [ -d 'site' ] ; then
 fi
 if [ -d 'database.egg-info' ] ; then
      rm -r dtabases.egg-info
+
+fi 
+
+find databases -type f -name "*.py[co]" -delete
+find databases -type d -name __pycache__ -delete    
