@@ -23,3 +23,6 @@ fi
 if [ -d 'site' ] ; then
     rm -r site
 
+fi
+if [ -d 'database.egg-info' ] ; then
+     rm -r dtabases.egg-info
