@@ -16,8 +16,4 @@ find databases -type d -name __pycache__ -delete
 
 
 
-if [ -d 'dist' ] ; then 
-    rm -r dist 
-
-
 
