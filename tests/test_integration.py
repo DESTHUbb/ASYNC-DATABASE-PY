@@ -8,7 +8,7 @@ from databases import Database, DatabaseURL
 from tests.test_databases import DATABASE_URLS
 
 metadata = sqlalchemy.MetaData()
-
+g
 notes = sqlalchemy.Table(
     "notes",
     metadata,
