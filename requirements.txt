@@ -44,9 +44,7 @@ wheel==0.37.1
 
 
 
-# Packaging
-twine==4.0.1
-wheel==0.37.1
+
 
 
 
