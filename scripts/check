@@ -6,7 +6,7 @@ if [ -d 'venv' ] ; then
 fi
 export SOURCE_FILES="databases tests"
 
-set -
+set -x
 
 ${PREFIX}isort --check --diff --project=databases $SOURCE_FILES
 ${PREFIX}black --check --diff $SOURCE_FILES
