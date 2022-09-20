@@ -38,7 +38,7 @@ wheel==0.37.1
 
 
 
-mypy==0.971
+
 pytest==7.1.2
 pytest-cov==3.0.0
 starlette==0.20.4
