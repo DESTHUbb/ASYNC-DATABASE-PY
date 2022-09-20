@@ -36,7 +36,6 @@ wheel==0.37.1
 
 
 
-autoflake==1.4
 black==22.6.0
 isort==5.10.1
 mypy==0.971
