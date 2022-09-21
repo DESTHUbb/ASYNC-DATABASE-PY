@@ -26,4 +26,5 @@ markdown_extensions:
 
 markdown_extensions:
     - mkautodoc
-    - 
+    - admontion
+    
