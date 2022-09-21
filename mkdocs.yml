@@ -28,4 +28,4 @@ markdown_extensions:
     - mkautodoc
     - admontion
     - oymdownx.highlight
-    - pymdownx.superfeces
+
