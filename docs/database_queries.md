@@ -122,7 +122,6 @@ To keep in line with
 query result object no longer implements a mapping interface.
 To acces query result as a mapping you should use the `_mapping` property. 
 That way you can process both SQLAlchemy Rows and databases Records from raw queries 
-with the same function without any instance checks.
 
 
 
