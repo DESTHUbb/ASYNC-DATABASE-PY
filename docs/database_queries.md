@@ -118,7 +118,7 @@ That way you can process both SQLAlchemy Rows and databases Records from raw que
 with the same function without any instance checks.
 
 
-To keep in line with 
+
 
 
 
