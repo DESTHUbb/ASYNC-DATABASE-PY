@@ -117,13 +117,6 @@ To access query result as a mapping you should use the `_mapping` property.
 That way you can process both SQLAlchemy Rows and databases Records from raw queries 
 with the same function without any instance checks.
 
-
-
-
-
-
-
-
 ```python
 query = "SELECT * FROM notes WHERE id = :id"
 result = await database.fetch_one(query=query, values={"id": 1})
