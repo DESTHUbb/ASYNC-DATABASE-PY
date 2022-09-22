@@ -119,8 +119,6 @@ with the same function without any instance checks.
 
 
 To keep in line with 
-query result object no longer implements a mapping interface.
-
 
 
 
