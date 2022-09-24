@@ -112,7 +112,7 @@ def test_replace_database_url_components():
     
     
 
-    new = u.replace(database="test_" + u.database)
+   
     assert new.database == "test_mydatabase"
     assert str(new) == "sqlite:///test_mydatabase"
 
