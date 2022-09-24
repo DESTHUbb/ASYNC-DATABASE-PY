@@ -114,7 +114,7 @@ def test_replace_database_url_components():
 
 
 
-    u = DatabaseURL("sqlite:////absolute/path")
+
     assert u.database == "/absolute/path"
     new = u.replace(database=u.database + "_test")
     assert new.database == "/absolute/path_test"
