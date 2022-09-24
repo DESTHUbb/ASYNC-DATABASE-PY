@@ -107,23 +107,3 @@ def test_replace_database_url_components():
     
     
     
-    
-    
-    
-    
-
-
-
-
-
-    assert str(new) == "sqlite:////absolute/path_test"
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
