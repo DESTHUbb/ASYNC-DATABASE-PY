@@ -23,4 +23,11 @@ markdown_extensions:
 
 
 
+  - mkautodoc
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+
+
 
