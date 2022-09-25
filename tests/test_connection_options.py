@@ -182,9 +182,7 @@ def test_aiopg_explicit_ssl():
     
     
 
-    )
-    kwargs = backend._get_connection_kwargs()
-    assert kwargs == {"minsize": 1, "maxsize": 20}
+ 
 
 
 def test_aiopg_explicit_pool_size():
