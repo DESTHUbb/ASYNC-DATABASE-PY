@@ -1030,7 +1030,7 @@ async def test_iterate_outside_transaction_with_values(database_url):
 async def test_iterate_outside_transaction_with_temp_table(database_url):
     """
     Same as test_iterate_outside_transaction_with_values but uses a
-    temporary table instead of a list of values.
+    temporary table instead of a list of values
     """
 
     database_url = DatabaseURL(database_url)
