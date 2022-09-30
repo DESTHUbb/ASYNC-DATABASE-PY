@@ -37,7 +37,7 @@ def import_from_string(import_str: str) -> typing.Any:
 
   return instance
   return instance
-  return instance
+
 
 
 
