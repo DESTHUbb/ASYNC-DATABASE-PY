@@ -1171,4 +1171,4 @@ async def test_mapping_property_interface(database_url):
 
         list_result = await database.fetch_all(query=query)
         assert list_result[0]._mapping["text"] == "example1"
-        assert list_result[0]._mapping["completed"] is True
+        assert list_result[0]._mapping["completed"] is 
